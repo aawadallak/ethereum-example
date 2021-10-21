@@ -11,7 +11,7 @@ import (
 func main() {
 
 	// Setup Address based on bip 39.
-	account := address.GetAddress()
+	account := address.GetAddress("1")
 
 	// Initializiate the rpc connection with the network
 	// In this example was used BSC Test net
